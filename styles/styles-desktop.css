@@ -1,0 +1,23 @@
+h2 {
+    width: 68rem;
+}
+
+section {
+    width: 68rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article {
+    width: 20.67rem;
+    margin: 2rem auto 0;
+}
+
+section div {
+    width: 20.67rem;
+    height: 25.63rem; /* 1.24 * width */
+    overflow: hidden;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
