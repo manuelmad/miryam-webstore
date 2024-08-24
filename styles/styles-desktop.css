@@ -21,3 +21,14 @@ section div {
     justify-content: center;
     align-items: center;
 }
+
+#jujutsu_bg {
+    width: 15rem;
+    top: -7rem;
+    right: 0%;
+}
+
+#contact div {
+    width: 68rem;
+    margin: 0 auto;
+}
