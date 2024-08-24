@@ -18,7 +18,6 @@ html {
     --apple-green: #aed201;
     --white: #FFFFFF;
     --black: #000000;
-    /* --dark-gray:#969796; */
     --ss: 1.2rem;
     --sm: 1.6rem;
     --md: 1.8rem;
@@ -35,7 +34,6 @@ header {
 main {
     padding: 4rem 0 0;
     font-size: var(--sm);
-    /* background-color: var(--very-light-gray); */
 }
 
 h1 {
