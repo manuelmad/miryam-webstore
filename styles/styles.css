@@ -11,27 +11,54 @@ html {
 }
 
 :root {
-    /* --very-light-gray:#C7C7C7;
-    --text-input-field: #F7F7F7;
-    --hospital-green: #ACD982;
-    --very-light-blue:#bad7f1;
-    --dark-blue: #252C5A; */
+    --purple-blue: #4647e3;
+    --very-light-gray:#e1e3e1;
+    --dark-blue: #0c3c68;
+    --middle-red: #ee3d42;
+    --apple-green: #aed201;
     --white: #FFFFFF;
     --black: #000000;
+    /* --dark-gray:#969796; */
     --ss: 1.2rem;
     --sm: 1.6rem;
     --md: 1.8rem;
     --lg: 2.2rem;
 }
 
+header {
+    width: 100%;
+    height: 16.5rem;
+    background-color: var(--middle-red);
+    text-align: center;
+}
+
 main {
     padding: 4rem 0 4rem;
     font-size: var(--sm);
+    /* background-color: var(--very-light-gray); */
+}
+
+h1 {
+    font-family: "Satisfy", cursive;
+    text-align: center;
+    font-size: 5rem;
 }
 
 h2 {
     width: 30rem;
-    margin: 4rem auto 0;
+    margin: 6rem auto 0;
+}
+
+.demon-slayer__h2 {
+    border-bottom: 0.3rem solid var(--purple-blue);
+}
+
+.pokemon-h2 {
+    border-bottom: 0.3rem solid var(--middle-red);
+}
+
+.jujutsu-kaisen__h2 {
+    border-bottom: 0.3rem solid var(--apple-green);
 }
 
 section {
@@ -41,11 +68,16 @@ section {
     gap: 1rem;
     margin: 0 auto;
     margin-bottom: 4rem;
+    position: relative;
 }
 
 article {
     width: 14.5rem;
     margin-top: 2rem;
+}
+
+article p {
+    margin-top: 1rem;
 }
 
 section div {
@@ -55,11 +87,78 @@ section div {
     border-radius: 0.5rem;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-
+    align-items: center;
 }
 
 section img {
-    width: 100%;
+    width: 120%;
     border-radius: 0.5rem;
+}
+
+#demon_slayer_container p {
+    background-color: var(--purple-blue);
+    border-radius: 0.5rem;
+    color: var(--white);
+    padding: 0.5rem;
+}
+
+#demon_slayer_container div {
+    box-shadow: 2px 2px 4px 1px var(--purple-blue);
+}
+
+#pokemon_container p {
+    background-color: var(--middle-red);
+    border-radius: 0.5rem;
+    color: var(--white);
+    padding: 0.5rem;
+}
+
+#pokemon_container div {
+    box-shadow: 2px 2px 4px 1px var(--middle-red);
+}
+
+#jujutsu_kaisen_container p {
+    background-color: var(--apple-green);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+#jujutsu_kaisen_container div {
+    box-shadow: 2px 2px 4px 1px #777777;
+}
+
+#demon_slayer_bg {
+    width: 10rem;
+    position: absolute;
+    z-index: -1;
+    top: -8rem;
+    right: 0%;
+}
+
+#pokemo_bg {
+    width: 15rem;
+    position: absolute;
+    z-index: -1;
+    top: -6rem;
+    right: 0%;
+}
+
+#jujutsu_bg {
+    width: 15rem;
+    position: absolute;
+    z-index: -1;
+    top: -7rem;
+    right: 0%;
+}
+
+footer {
+    width: 100%;
+    height: 18.5rem;
+    background-color: var(--dark-blue);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer img {
+    border-radius: 50%;
 }

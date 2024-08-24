@@ -35,3 +35,22 @@ pokemon.forEach(pic => {
 
     pokemon_container.appendChild(article);
 });
+
+// Creating jujutsu kaisen's catalog
+const jujutsu_kaisen_container = document.getElementById('jujutsu_kaisen_container');
+
+jujutsu_kaisen.forEach(pic => {
+    const article = document.createElement('article');
+    const div = document.createElement('div');
+    const p = document.createElement('p');
+    const img = document.createElement('img');
+
+    img.src = pic.url;
+    div.appendChild(img);
+    p.innerHTML = `Precio: $ ${pic.price}`;
+
+    article.appendChild(div);
+    article.appendChild(p);
+
+    jujutsu_kaisen_container.appendChild(article);
+});

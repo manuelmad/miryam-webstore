@@ -8,17 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Satisfy&display=swap" rel="stylesheet">
     <title>Catálogo Web</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <link href="./styles/styles-desktop.css" media="screen and (min-width: 700px)" type="text/css" rel="stylesheet" />
 	<!-- <link href="diseno-rev-desktop.css" media="screen and (min-width: 1024px)" type="text/css" rel="stylesheet" /> -->
 </head>
 <body>
-    <header></header>
+    <header>
+        <div>
+            <img src="./imgs/logo_size_invert.jpg" alt="">
+        </div>
+    </header>
     <main>
-        <h2>DEMON SLAYER</h2>
+        <h1>Llaveros</h1>
+        <h2 class="demon-slayer__h2">DEMON SLAYER</h2>
         <section id="demon_slayer_container">
+            <img id="demon_slayer_bg" src="./imgs/demon-slayer-logo-transparent.png" alt="">
             <!-- <article>
                 <div>
                     <img src="" alt="">
@@ -28,13 +34,22 @@
                 </p>
             </article> -->
         </section>
-        <h2>POKÉMON</h2>
+        <h2 class="pokemon-h2">POKÉMON</h2>
         <section id="pokemon_container">
+            <img id="pokemo_bg" src="./imgs/pokemon-logo.png" alt="">
 
         </section>
-        <section></section>
+        <h2 class="jujutsu-kaisen__h2">JUJUTSU KAISEN</h2>
+        <section id="jujutsu_kaisen_container">
+            <img id="jujutsu_bg" src="./imgs/Jujutsu-Kaisen-Logo.png" alt="">
+            
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div>
+            <img src="./imgs/logo_size.jpg" alt="">
+        </div>
+    </footer>
     <script src="./src/products.js"></script>
     <script src="./src/index.js"></script>
 </body>

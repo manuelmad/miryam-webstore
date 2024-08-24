@@ -51,3 +51,30 @@ const pokemon = [
         price: 2
     }
 ];
+
+const jujutsu_kaisen = [
+    {
+        url: '../imgs/jujutsu-kaisen/1.jpg',
+        price: 2
+    },
+    {
+        url: '../imgs/jujutsu-kaisen/2.jpg',
+        price: 2
+    },
+    {
+        url: '../imgs/jujutsu-kaisen/3.jpg',
+        price: 2
+    },
+    {
+        url: '../imgs/jujutsu-kaisen/4.jpg',
+        price: 2
+    },
+    {
+        url: '../imgs/jujutsu-kaisen/5.jpg',
+        price: 2
+    },
+    {
+        url: '../imgs/jujutsu-kaisen/6.jpg',
+        price: 2
+    }
+];
